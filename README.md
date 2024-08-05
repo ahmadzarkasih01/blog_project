@@ -1,6 +1,6 @@
 # Blog App
 
-Blog App adalah aplikasi web yang memungkinkan pengguna untuk membuat, membaca, memperbarui, dan menghapus postingan blog. Aplikasi ini juga dilengkapi dengan fitur pengiriman email menggunakan Mailtrap untuk notifikasi dan konfirmasi, serta integrasi dengan Instagram untuk memberikan notifikasi pembaruan blog.
+Blog App adalah aplikasi web yang memungkinkan pengguna untuk membuat, membaca, memperbarui, dan menghapus postingan blog. Aplikasi ini juga dilengkapi dengan fitur pengiriman email menggunakan Mailtrap untuk notifikasi dan konfirmasi, serta integrasi dengan Telegram untuk memberikan notifikasi pembaruan blog.
 
 ## Fitur
 
