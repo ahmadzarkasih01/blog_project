@@ -170,7 +170,7 @@ class PostController extends Controller
 
     private function notify_telegram($post)
         {
-            $api_token = env('TELEGRAM_BOT_TOKEN'); // Pastikan token disimpan dalam variabel lingkungan
+            $api_token = env('TELEGRAM_BOT_TOKEN'); 
             $url = "https://api.telegram.org/bot{$api_token}/sendMessage";
             $chat_id = "-4289179351";
             $content = "Ada Postingan baru nih di Blog kamu dengan Judul: <strong> \"{$post->title}\" </strong>";
