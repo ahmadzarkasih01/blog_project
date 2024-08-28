@@ -29,6 +29,19 @@
             <input type="password" class="form-control" id="password" name="password">
           </div>
 
+          <!-- Tambahkan Dropdown untuk Role -->
+          <div class="mb-3">
+            <label for="role" class="form-label">Role</label>
+            <select class="form-control" id="role" name="role">
+              <option value="">Pilih Role</option>
+              <option value="admin" {{ old('role') == 'admin' ? 'selected' : '' }}>Admin</option>
+              <option value="author" {{ old('role') == 'author' ? 'selected' : '' }}>Author</option>
+            </select>
+            @if($errors->has('role'))
+              <span class="text-danger">{{ $errors->first('role') }}</span>
+            @endif
+          </div>
+
           <div class="mb-3">
               <button type="submit" class="btn btn-primary">Login</button>
           </div>

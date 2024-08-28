@@ -5,7 +5,7 @@
 @section('content')
   <div class="container mt-4">
     <div class="d-flex justify-content-between align-items-center mb-4">
-      <h1 class="mb-0">Blog Codepolitan</h1>
+      <h1 class="mb-0">Blog Lumut.id</h1>
       <a href="{{ url('posts/create') }}" class="btn btn-success">+ Buat Postingan</a>
     </div>
 
